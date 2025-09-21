@@ -19,6 +19,7 @@
     "vite": "^7.1.6"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "socket.io-client": "^4.8.1"
