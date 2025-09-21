@@ -307,7 +307,13 @@ The application is fully responsive with:
 - Test with multiple browser tabs to simulate multiple users
 - Use React Developer Tools for component debugging
 
-## 📄 License
+## �‍💻 Developer
+
+**Developed by:** Danuja Adikari  
+**Email:** danujadikari2001@gmail.com  
+**GitHub:** [@danujaadikari](https://github.com/danujaadikari)
+
+## �📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
