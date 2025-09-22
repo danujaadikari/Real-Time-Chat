@@ -1,6 +1,24 @@
 /**
- * Main App Component
- * Manages application state and routing between Login and Chat screens
+ * Main App Comconst App: React.FC = () => {
+  // Temporary debug: Simple component to test if React is working
+  return (
+    <div style={{ padding: '20px', backgroundColor: 'white', color: 'black' }}>
+      <h1>Real-Time Chat - Debug Mode</h1>
+      <p>If you can see this, React is working!</p>
+    </div>
+  );
+
+  const [state, setState] = useState<AppState>({
+    isConnected: false,
+    currentUser: null,
+    currentRoom: '',
+    messages: [],
+    onlineUsers: [],
+    typingUsers: [],
+    error: null,
+  });
+
+  const [isLoading, setIsLoading] = useState<boolean>(false);anages application state and routing between Login and Chat screens
  */
 
 import React, { useState, useEffect } from 'react';
